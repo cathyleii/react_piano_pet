@@ -1,0 +1,97 @@
+.minigame-window {
+    justify-self: center;
+    background-color: white;
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    align-self: center;
+    color: black;
+    border: 1mm solid black;
+}
+
+.exit-button {
+    background-color: rgb(255, 125, 125);
+    width: 50px;
+    height: 25px;
+    position: absolute;
+    border-radius: 0px;
+    border-style: outset;
+    border: 1mm thin black;
+    top: 0;
+    left: 0;
+    color: black;
+    font-size: 15px;
+}
+
+.success-window {
+    color: black;
+    width: 280px;
+    height: 130px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    padding-top: 30px;
+    border-style: double;
+    border-color: black;
+    border-width: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: #c987bc 2px 2px;
+    background: url("../assets/pixel-starry-cloudy-sky.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.done-button {
+    width: 100px;
+    height: 30px;
+    background-color: #af91ff;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: Verdana;
+    border: 0.8mm solid rgba(0, 0, 0, 0.4);
+    box-shadow: 3px 3px 1px #504490;
+
+}
+
+.done-button:active {
+    width: 100px;
+    height: 30px;
+    background-color: #504490;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: Verdana;
+    border: 0.8mm solid rgba(0, 0, 0, 0.4);
+    box-shadow: 3px 3px 1px #504490;
+}
+
+.submit-button {
+    width: 90px;
+    height: 15%;
+    background-color: rgb(25, 0, 90);
+    border-radius: 4px;
+    box-shadow: 3px 3px 2px rgb(171, 119, 255);
+    border: 0.5mm solid rgba(125, 242, 255, 0.8);
+}
+
+.submit-button:active {
+    width: 90px;
+    height: 15%;
+    background-color: rgb(171, 119, 255);
+    border-radius: 4px;
+    box-shadow: 3px 3px 2px rgb(171, 119, 255);
+    border: 0.5mm solid rgba(125, 242, 255, 0.8);
+}
+
+h5 {
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    background-color: rgba(188, 155, 255, 0.7);
+    width: 100%;
+}

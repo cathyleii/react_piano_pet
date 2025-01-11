@@ -1,0 +1,57 @@
+.option {
+    justify-self: center;
+    align-self: center;
+    height: 45px;
+}
+
+.option-bg {
+    background: url("../assets/pixel-wood-board-square.png") no-repeat center;
+    background-size: cover;
+    width: 70px;
+    align-self: center;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: 0.8mm solid rgba(154, 118, 255, 0.6);
+}
+
+.cup {
+    height: 170px;
+    margin-top: 15px;
+    margin-left: 35px;
+    margin-bottom: 30px;
+    
+}
+
+.drink-minigame-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #a6daff;
+    height: 95%;
+}
+
+.options-container {
+    display: grid;
+    grid-template-columns: repeat(5, 18%);
+    row-gap: 10%;
+    transform: translate(8%, -18%);
+    /* background-color: black; */
+}
+
+.dragover {
+filter:brightness(500%);
+}
+
+span {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 80px;
+    margin-bottom: -10px;
+    align-self: center;
+    width: 170px;
+    height: 100px;
+    background: url("../assets/pixel-wood-board.png") no-repeat center;
+    background-size: cover;
+    text-shadow: 1.3px 1.3px 1px rgba(53, 49, 255, 0.6);
+}

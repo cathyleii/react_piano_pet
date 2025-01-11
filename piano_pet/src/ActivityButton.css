@@ -1,0 +1,26 @@
+.activity-button {
+    background-color: rgb(41, 27, 92);
+    color: white;
+    width: 100px;
+    height: 35px;
+    font-size: 1em;
+    border-radius: 8px;
+    border: 3px inset rgba(139, 255, 222, 0.8);
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 800;
+}
+
+.activity-button:active {
+    background-color: rgba(24, 247, 184, 0.59);
+    color: white;
+    width: 100px;
+    height: 35px;
+    font-size: 1em;
+    border-radius: 8px;
+    border: 3px inset rgba(24, 247, 184, 0.59);
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 800;
+}
+

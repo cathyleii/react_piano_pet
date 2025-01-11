@@ -1,0 +1,60 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  display: grid;
+  row-gap: 20px;
+}
+
+.state-container {
+  width: 700px;
+  height: 300px;
+  display: grid;
+  padding: 15px 15px 15px 15px;
+  grid-template-columns: 50% 50%;
+  border: 4mm ridge rgba(54, 30, 11, 0.89);
+  border-radius: 10px;
+  align-items: center;
+  justify-items: center;
+  box-shadow: 10px 10px 1px rgba(84, 50, 17, 0.651);
+  background: url("./assets/realistic-wood-texture-background-design-vector.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.pet-container {
+  width: auto;
+  height: 300px;
+  background-color: rgba(37, 31, 159, 0.5);
+  border: 1.3mm solid rgba(255, 255, 255, 0.89);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 17px 17px 3px rgba(0, 85, 255, 0.651);
+}
+
+.manage-state {
+  display: grid;
+  row-gap: 10px;
+  justify-items: center;
+}
+
+.pet {
+  width: 110px;
+  transform: translate(0, 54%);
+
+}
+
+.pet-inner-container {
+  width: 75%;
+  height: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-radius: 20px;
+  border-width: 4px;
+  background: url("./assets/pixel-art-forest-background-seamless-600nw-2501937379.webp");
+  background-size: contain;
+}
