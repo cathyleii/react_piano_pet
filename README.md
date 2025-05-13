@@ -1,0 +1,1 @@
+A virtual pet-raising simulator that allows users to test their basic piano knowledge through four different types of minigames. Concepts covered include naming notes on the piano, rhythm notes, and intervals.
